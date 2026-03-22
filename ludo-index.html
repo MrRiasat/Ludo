@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Web Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-900 text-white leading-relaxed">
+
+    <nav class="p-6 flex justify-between items-center max-w-6xl mx-auto">
+        <h1 class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">DevPortfolio</h1>
+        <div class="space-x-6">
+            <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
+            <a href="#skills" class="hover:text-blue-400 transition">Skills</a>
+            <a href="mailto:your@email.com" class="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700">Hire Me</a>
+        </div>
+    </nav>
+
+    <header class="py-20 text-center px-4">
+        <h2 class="text-5xl md:text-7xl font-extrabold mb-4">Hi, I'm <span class="text-blue-500">Your Name</span></h2>
+        <p class="text-gray-400 text-xl max-w-2xl mx-auto">A Full-stack Web Developer specializing in building exceptional digital experiences. I turn ideas into reality with code.</p>
+        <div class="mt-8 space-x-4">
+            <a href="#projects" class="border border-blue-500 text-blue-500 px-6 py-3 rounded-full hover:bg-blue-500 hover:text-white transition">View My Work</a>
+            <a href="https://github.com/yourusername" target="_blank" class="bg-gray-800 px-6 py-3 rounded-full hover:bg-gray-700 transition"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+    </header>
+
+    <hr class="border-gray-800">
+
+    <section id="projects" class="py-20 max-w-6xl mx-auto px-4">
+        <h3 class="text-3xl font-bold mb-12 text-center">Featured Projects</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="bg-gray-800 rounded-xl overflow-hidden hover:transform hover:scale-105 transition duration-300 shadow-lg">
+                <div class="h-48 bg-blue-900 flex items-center justify-center italic text-gray-400">[Project Image]</div>
+                <div class="p-6">
+                    <h4 class="text-xl font-bold mb-2">E-Commerce App</h4>
+                    <p class="text-gray-400 mb-4 text-sm">Full MERN stack application with payment gateway integration.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-xs font-mono text-blue-400">React • Node • MongoDB</span>
+                        <a href="#" class="text-white hover:underline">Live Demo →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-gray-800 rounded-xl overflow-hidden hover:transform hover:scale-105 transition duration-300 shadow-lg">
+                <div class="h-48 bg-purple-900 flex items-center justify-center italic text-gray-400">[Project Image]</div>
+                <div class="p-6">
+                    <h4 class="text-xl font-bold mb-2">Portfolio Website</h4>
+                    <p class="text-gray-400 mb-4 text-sm">Responsive personal site built with Tailwind CSS and JS.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-xs font-mono text-blue-400">HTML • Tailwind • JS</span>
+                        <a href="#" class="text-white hover:underline">Live Demo →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-gray-800 rounded-xl overflow-hidden hover:transform hover:scale-105 transition duration-300 shadow-lg">
+                <div class="h-48 bg-green-900 flex items-center justify-center italic text-gray-400">[Project Image]</div>
+                <div class="p-6">
+                    <h4 class="text-xl font-bold mb-2">Task Manager</h4>
+                    <p class="text-gray-400 mb-4 text-sm">A simple productivity tool with drag-and-drop features.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-xs font-mono text-blue-400">React • Firebase</span>
+                        <a href="#" class="text-white hover:underline">Live Demo →</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills" class="py-20 bg-gray-800/50">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h3 class="text-3xl font-bold mb-10">Technical Skills</h3>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="bg-gray-700 px-4 py-2 rounded-lg border border-gray-600">JavaScript</span>
+                <span class="bg-gray-700 px-4 py-2 rounded-lg border border-gray-600">React.js</span>
+                <span class="bg-gray-700 px-4 py-2 rounded-lg border border-gray-600">Next.js</span>
+                <span class="bg-gray-700 px-4 py-2 rounded-lg border border-gray-600">Tailwind CSS</span>
+                <span class="bg-gray-700 px-4 py-2 rounded-lg border border-gray-600">Node.js</span>
+                <span class="bg-gray-700 px-4 py-2 rounded-lg border border-gray-600">MongoDB</span>
+                <span class="bg-gray-700 px-4 py-2 rounded-lg border border-gray-600">Git & GitHub</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-gray-500 border-t border-gray-800 mt-20">
+        <p>&copy; 2024 Your Name. Built with ❤️ and Code.</p>
+    </footer>
+
+</body>
+</html>
